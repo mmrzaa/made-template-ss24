@@ -1,0 +1,5 @@
+{
+    "dataset": "goyaladi/climate-insights-dataset",
+    "path": "../data",
+    "file_name": "climate-insights-dataset.csv"
+}

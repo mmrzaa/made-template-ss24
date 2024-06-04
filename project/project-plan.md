@@ -2,31 +2,40 @@
 
 ## Title
 
-Tracking Greenhouse Gas Emissions by Sector to Understand Climate Change
+Analyzing the Impact of Greenhouse Gas Emissions on Global Temperature Changes
 
 ## Main Question
 
-How have greenhouse gas emissions from different sectors changed over time, and what does this mean for climate change?
+How have methane (CH4) emissions from various sectors and regions contributed to global temperature changes over the past few decades, and what insights can be derived to inform climate change mitigation strategies?
 
 ## Description
 
-Climate change is one of the biggest challenges we face today. This project will dig into historical data on greenhouse gas emissions from various sectors to uncover trends and identify major contributors to climate change. We'll analyze data from 1985 to 2022, focusing on methane (CH4) emissions, to see how they've shifted over the years and across different regions. Using advanced data engineering methods, we'll clean, process, and visualize the data to provide clear insights. These insights will help policymakers, researchers, and the public understand what measures have worked and where more effort is needed to reduce emissions.
+Climate change is a pressing global issue, and understanding the relationship between greenhouse gas emissions and temperature changes is crucial for developing effective mitigation strategies. This project aims to analyze the impact of methane (CH4) emissions from various sectors and regions on global temperature trends. By combining data on greenhouse gas emissions and global temperature records, we can investigate the correlation between these factors and identify potential drivers of climate change. The results of this analysis can provide valuable insights for policymakers, researchers, and the public, helping to inform decision-making processes and guide efforts to reduce emissions and mitigate the effects of climate change.
 
 ## Datasources
 
-### Datasource1: Greenhouse Gas Emissions by Source Sector
+### Datasource1: Greenhouse Gas Emissions Data
 
-- Metadata URL: https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/env_air_gge?format=SDMX-CSV&compressed=true
-- Data URL: Provided as a CSV example above.
+- Metadata URL: https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/env_air_gge?format=SDMX-CSV&compressed=false
 - Data Type: CSV
 
-This dataset includes detailed information on methane (CH4) emissions from various source sectors, covering different regions and years. It provides a comprehensive view of how emissions have changed over time.
+This dataset provides information on greenhouse gas emissions, including methane (CH4), from various sectors and regions across Europe. It covers the period from 1985 to 2022 and can be used to analyze trends and identify major contributors to emissions.
+
+### Datasource2: Global Temperature Data
+
+- Metadata URL: https://www.kaggle.com/datasets/goyaladi/climate-insights-dataset
+- Data Type: CSV
+
+This dataset contains global temperature records and other climate-related variables. It can be used in conjunction with the greenhouse gas emissions data to explore the relationship between emissions and temperature changes over time.
 
 ## Work Packages
 
-<!-- List of work packages ordered sequentially, each pointing to an issue with more details. -->
-
-1. Example Issue [#1][i1]
-2. ...
+1. Data Preprocessing [#1][i1]
+2. Exploratory Data Analysis [#2][i2]
+3. Modeling and Analysis [#3][i3]
+4. Visualization and Reporting [#4][i4]
 
 [i1]: https://github.com/jvalue/made-template/issues/1
+[i2]: https://github.com/jvalue/made-template/issues/2
+[i3]: https://github.com/jvalue/made-template/issues/3
+[i4]: https://github.com/jvalue/made-template/issues/4
